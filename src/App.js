@@ -24,5 +24,5 @@ class App extends Component {
     );
   }
 }
-
+//Paul is gay
 export default App;
