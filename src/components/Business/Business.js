@@ -11,6 +11,7 @@ zipCode: '10101',
 category: 'Italian',
 rating: 4.5,
 reviewCount: 90
+};
 
 class Business extends React.Component {
   render() {
@@ -35,6 +36,6 @@ class Business extends React.Component {
 </div>
     )
   }
-};
+}
 
 export default Business;
