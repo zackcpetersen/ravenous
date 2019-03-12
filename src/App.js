@@ -10,11 +10,11 @@ class App extends Component {
     super(props);
     this.state = {
       businesses: [],
-    };
-    this.searchYelp = this.searhYelp.bind(this);
+    }
+    this.searchYelp = this.searchYelp.bind(this);
   }
   searchYelp(term, location, sortBy) {
-    Yelp.search(term, location. sortBy).then((businesses) => {
+    Yelp.search(term, location, sortBy).then((businesses) => {
       this.setState({
         businesses: businesses
       });
